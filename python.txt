@@ -1,0 +1,13 @@
+print "Student Report"
+
+marks = [45, 67, 89, 56, 72]
+total = 0
+
+for i in range(0, len(marks)):
+    print "Mark:", marks[i]
+    total = total + marks[i]
+
+avg = total / len(marks)
+
+print "Average:", avg
+print "End of Report"
